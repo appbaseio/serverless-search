@@ -40,6 +40,9 @@ RUN git config --global url."https://<--token-->:x-oauth-basic@github.com/".inst
 # Install library dependencies
 RUN go mod download
 
+# Remove the config since it contains sensitive information
+RUN rm ~/.gitconfig
+
 # Copy the entire project and build it
 # This layer is rebuilt when a file changes in the project directory
 COPY . .
