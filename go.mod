@@ -15,7 +15,7 @@ require (
 	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
 	github.com/antonmedv/expr v1.9.0 // indirect
 	github.com/appbaseio-confidential/arc-noss v0.0.0-20220705142732-76e654ace85a // indirect
-	github.com/appbaseio/reactivesearch-api v0.0.0-20220705133928-800acf0348db // indirect
+	github.com/appbaseio/reactivesearch-api v0.0.0-20220719184751-02f35ecbc972 // indirect
 	github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bbalet/stopwords v1.0.0 // indirect
