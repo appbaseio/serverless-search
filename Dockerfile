@@ -34,6 +34,9 @@ WORKDIR /serverless-search
 # List project dependencies with go.mod and go.sum
 COPY go.mod go.sum ./
 
+# Set the config to be able to access private repo
+RUN git config --global url."https://<--token-->:x-oauth-basic@github.com/".insteadOf "https://github.com/"
+
 # Install library dependencies
 RUN go mod download
 
@@ -53,4 +56,4 @@ COPY --from=builder /serverless-search /serverless-search
 WORKDIR /serverless-search
 
 EXPOSE 8000
-ENTRYPOINT ["build/serverless", "--log", "stdout", "--plugins"]
+ENTRYPOINT ["build/serverless-search", "--log", "stdout", "--plugins"]

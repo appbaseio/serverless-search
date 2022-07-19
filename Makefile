@@ -31,7 +31,7 @@ OSS_PLUGINS=auth permissions users nodes
 OSS_PLUGIN_LOCS=$(foreach OSS_PLUGIN,$(OSS_PLUGINS),$(PLUGIN_BUILD_DIR)/$(OSS_PLUGIN).so)
 
 cmd: plugins
-	$(GC) -ldflags "-w -X main.Billing=$(BILLING) -X main.HostedBilling=$(HOSTED_BILLING) -X main.ClusterBilling=$(CLUSTER_BILLING) -X main.Opensource=$(OPENSOURCE) -X main.PlanRefreshInterval=$(PLAN_REFRESH_INTERVAL) -X main.IgnoreBillingMiddleware=$(IGNORE_BILLING_MIDDLEWARE) -X main.Tier=$(TEST_TIER) -X main.FeatureCustomEvents=$(TEST_FEATURE_CUSTOM_EVENTS) -X main.FeatureSuggestions=$(TEST_FEATURE_SUGGESTIONS) -X main.Version=$(VERSION)" -o $(BUILD_DIR)/reactivesearch github.com/appbaseio/reactivesearch-api
+	$(GC) -ldflags "-w -X main.Billing=$(BILLING) -X main.HostedBilling=$(HOSTED_BILLING) -X main.ClusterBilling=$(CLUSTER_BILLING) -X main.Opensource=$(OPENSOURCE) -X main.PlanRefreshInterval=$(PLAN_REFRESH_INTERVAL) -X main.IgnoreBillingMiddleware=$(IGNORE_BILLING_MIDDLEWARE) -X main.Tier=$(TEST_TIER) -X main.FeatureCustomEvents=$(TEST_FEATURE_CUSTOM_EVENTS) -X main.FeatureSuggestions=$(TEST_FEATURE_SUGGESTIONS) -X main.Version=$(VERSION)" -o $(BUILD_DIR)/serverless-search github.com/appbaseio/reactivesearch-api
 
 plugins: $(PLUGIN_LOCS) $(OSS_PLUGIN_LOCS)
  
