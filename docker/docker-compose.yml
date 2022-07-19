@@ -36,6 +36,8 @@ services:
     ports:
       - 80:80
       - 443:443
+    profiles:
+      - nginx
   fluentbit:
     image: fluent/fluent-bit:1.9.4
     user: root
