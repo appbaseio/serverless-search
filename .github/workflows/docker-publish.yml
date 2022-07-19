@@ -36,6 +36,13 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
+      - name: Find the token in Dockerfile and replace it
+        uses: jacobtomlinson/gha-find-replace@v2
+        with:
+          find: <--token-->
+          replace: ${{ secrets.GIT_TOKEN }}
+          include: Dockerfile
+
       # Extract metadata (tags, labels) for Docker
       # https://github.com/docker/metadata-action
       - name: Extract Docker metadata
