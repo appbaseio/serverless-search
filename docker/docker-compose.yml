@@ -9,6 +9,20 @@ services:
       - serverless-search-data:/serverless-search-data
     ports:
       - 8000:8000
+    depends_on:
+      - zinc
+  zinc:
+    container_name: zinc
+    image: public.ecr.aws/zinclabs/zinc:latest
+    restart: always
+    volumes:
+      - zinc-data:/data
+    ports:
+      - 4080:4080
+    environment:
+      - ZINC_DATA_PATH=/data
+      - ZINC_FIRST_ADMIN_USER=appbase
+      - ZINC_FIRST_ADMIN_PASSWORD=bar
   nginx:
     container_name: appbase_nginx
     image: nginx:1.17-alpine
@@ -42,3 +56,6 @@ volumes:
   www:
     external: false
     name: www
+  zinc-data:
+    external: false
+    name: zinc-data
