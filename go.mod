@@ -1,4 +1,4 @@
-module github.com/appbaseio-confidential/serverless-search
+module github.com/appbaseio/serverless-search
 
 go 1.18
 
