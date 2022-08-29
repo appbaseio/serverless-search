@@ -9,6 +9,7 @@ replace github.com/blugelabs/ice => github.com/zinclabs/ice v1.1.1
 replace github.com/blugelabs/bluge_segment_api => github.com/zinclabs/bluge_segment_api v1.0.0
 
 require (
+	github.com/Knetic/govaluate v3.0.0+incompatible // indirect
 	github.com/RoaringBitmap/roaring v0.9.4 // indirect
 	github.com/alecthomas/jsonschema v0.0.0-20220216202328-9eeeec9d044b // indirect
 	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
@@ -19,6 +20,8 @@ require (
 	github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bbalet/stopwords v1.0.0 // indirect
+	github.com/bcicen/bfstree v1.0.0 // indirect
+	github.com/bcicen/go-units v1.0.3 // indirect
 	github.com/bits-and-blooms/bitset v1.2.0 // indirect
 	github.com/blevesearch/go-porterstemmer v1.0.3 // indirect
 	github.com/blevesearch/mmap-go v1.0.4 // indirect
@@ -54,6 +57,7 @@ require (
 	github.com/gorilla/mux v1.7.1 // indirect
 	github.com/hashicorp/go-version v1.3.0 // indirect
 	github.com/iancoleman/orderedmap v0.0.0-20190318233801-ac98e3ecb4b0 // indirect
+	github.com/invopop/jsonschema v0.5.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/keygen-sh/go-update v1.0.0 // indirect
 	github.com/keygen-sh/jsonapi-go v1.1.0 // indirect
