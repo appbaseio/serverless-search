@@ -14,8 +14,8 @@ require (
 	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
 	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
 	github.com/antonmedv/expr v1.9.0 // indirect
-	github.com/appbaseio-confidential/arc-noss v0.0.0-20220705142732-76e654ace85a // indirect
-	github.com/appbaseio/reactivesearch-api v0.0.0-20220719184751-02f35ecbc972 // indirect
+	github.com/appbaseio-confidential/arc-noss v0.0.0-20220829074056-84722d857b45 // indirect
+	github.com/appbaseio/reactivesearch-api v0.0.0-20220826142822-e2147ba493fe // indirect
 	github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bbalet/stopwords v1.0.0 // indirect
@@ -64,7 +64,7 @@ require (
 	github.com/lithammer/fuzzysearch v1.1.3 // indirect
 	github.com/mackerelio/go-osstat v0.2.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
-	github.com/microcosm-cc/bluemonday v1.0.16 // indirect
+	github.com/microcosm-cc/bluemonday v1.0.19 // indirect
 	github.com/mschoch/smat v0.2.0 // indirect
 	github.com/natefinch/lumberjack v2.0.1-0.20190411184413-94d9e492cc53+incompatible // indirect
 	github.com/oasisprotocol/curve25519-voi v0.0.0-20211102120939-d5a936accd94 // indirect
@@ -81,7 +81,7 @@ require (
 	github.com/rs/cors v1.6.0 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.6.0 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
+	github.com/stretchr/testify v1.7.1 // indirect
 	github.com/ulule/limiter v2.2.0+incompatible // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.0.2 // indirect
