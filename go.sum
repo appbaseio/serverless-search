@@ -32,6 +32,10 @@ github.com/appbaseio-confidential/arc-noss v0.0.0-20220829125441-d98e7c7dabfb h1
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220829125441-d98e7c7dabfb/go.mod h1:zng3Fs4aueso4D7uSA9OVEZdkW+Ly0UYFazIkPwI9x4=
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220829131944-96d586d994ce h1:xFao1hEfdtANZLBuzsOeJa1Z/p1+Iamgj0+cWllHDps=
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220829131944-96d586d994ce/go.mod h1:fhiH1LiMpRIQwiwVytPYydfSKwGfgPN7Mw5qgJgZUZ8=
+github.com/appbaseio-confidential/arc-noss v0.0.0-20220829143010-52e9f0612f39 h1:jyTb3MVC6W8mIpLRUD3UPAPCtk8fn9D1O1LiKWIjRXc=
+github.com/appbaseio-confidential/arc-noss v0.0.0-20220829143010-52e9f0612f39/go.mod h1:EN48CP5un4TvByKI4ukyAG4ZVY/qCZ6ath84BNSnHog=
+github.com/appbaseio-confidential/arc-noss v0.0.0-20220829154534-5a80ae6f100e h1:MeQK6I0iGIYDFPMPp58/7OfhhPXobe41vsGHyPuMqgg=
+github.com/appbaseio-confidential/arc-noss v0.0.0-20220829154534-5a80ae6f100e/go.mod h1:EQZin60FmjTZx6xNSHdlyQzrMKy2eNqA48Rp96v5BB4=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220705133928-800acf0348db h1:njc7ctCvQNNkEE/i+9GwgtGVk/jgqLsIDdEyupQoe1A=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220705133928-800acf0348db/go.mod h1:Vo5FeKolX7w0oYt5/eB/l9anuwBfv0AbsHt/qJElQ4A=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220719184430-d51bad6fc5d5 h1:6fUApzLv5CjZ9T80mhVW7WKHOsTMVEnsbE0Esyog/dk=
@@ -44,6 +48,10 @@ github.com/appbaseio/reactivesearch-api v0.0.0-20220829105122-ab91af36af14 h1:l/
 github.com/appbaseio/reactivesearch-api v0.0.0-20220829105122-ab91af36af14/go.mod h1:slIqsQ5BsBEPZ2uuGP7KOdboGmHnY4J5053UlgJiFv8=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220829131431-c8755304a815 h1:iiHweg/jSc+Q3PkLCd/9opym63Q44VfxWF9sETqefWE=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220829131431-c8755304a815/go.mod h1:slIqsQ5BsBEPZ2uuGP7KOdboGmHnY4J5053UlgJiFv8=
+github.com/appbaseio/reactivesearch-api v0.0.0-20220829142843-d7fad015226f h1:kMhmvkH0y4aqQTiSiXeF1SCVgoVyOTEcAnMomFBtcAs=
+github.com/appbaseio/reactivesearch-api v0.0.0-20220829142843-d7fad015226f/go.mod h1:slIqsQ5BsBEPZ2uuGP7KOdboGmHnY4J5053UlgJiFv8=
+github.com/appbaseio/reactivesearch-api v0.0.0-20220829152510-04111f0de567 h1:FKT4CHKEt0WEPSEC214Wb6UVmqSY7HRpEgeI5D5GSUc=
+github.com/appbaseio/reactivesearch-api v0.0.0-20220829152510-04111f0de567/go.mod h1:slIqsQ5BsBEPZ2uuGP7KOdboGmHnY4J5053UlgJiFv8=
 github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6/go.mod h1:grANhF5doyWs3UAsr3K4I6qtAmlQcZDesFNEHPZAzj8=
 github.com/aws/aws-sdk-go v1.38.3/go.mod h1:hcU610XS61/+aQV88ixoOzUoG7v3b31pl2zKMmprdro=
 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f h1:y06x6vGnFYfXUoVMbrcP1Uzpj4JG01eB5vRps9G8agM=
