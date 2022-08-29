@@ -24,7 +24,7 @@ VERSION := $(or $(VERSION),$(DEFAULT_VERSION))
 
 $(info PLUGINS is $(PLUGINS))
 
-PLUGINS=analytics applycache cache pipelines uibuilder
+PLUGINS=analytics applycache cache pipelines uibuilder proxy
 PLUGIN_LOCS=$(foreach PLUGIN,$(PLUGINS),$(PLUGIN_BUILD_DIR)/$(PLUGIN).so)
 
 OSS_PLUGINS=auth permissions users nodes
