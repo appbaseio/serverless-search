@@ -36,6 +36,8 @@ github.com/appbaseio-confidential/arc-noss v0.0.0-20220829143010-52e9f0612f39 h1
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220829143010-52e9f0612f39/go.mod h1:EN48CP5un4TvByKI4ukyAG4ZVY/qCZ6ath84BNSnHog=
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220829154534-5a80ae6f100e h1:MeQK6I0iGIYDFPMPp58/7OfhhPXobe41vsGHyPuMqgg=
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220829154534-5a80ae6f100e/go.mod h1:EQZin60FmjTZx6xNSHdlyQzrMKy2eNqA48Rp96v5BB4=
+github.com/appbaseio-confidential/arc-noss v0.0.0-20220830090810-f979a10d7829 h1:sK9OoHG3RSsZC59Wg1qiXqJeFtiAkNN1k+9XZTnrATg=
+github.com/appbaseio-confidential/arc-noss v0.0.0-20220830090810-f979a10d7829/go.mod h1:EQZin60FmjTZx6xNSHdlyQzrMKy2eNqA48Rp96v5BB4=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220705133928-800acf0348db h1:njc7ctCvQNNkEE/i+9GwgtGVk/jgqLsIDdEyupQoe1A=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220705133928-800acf0348db/go.mod h1:Vo5FeKolX7w0oYt5/eB/l9anuwBfv0AbsHt/qJElQ4A=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220719184430-d51bad6fc5d5 h1:6fUApzLv5CjZ9T80mhVW7WKHOsTMVEnsbE0Esyog/dk=
