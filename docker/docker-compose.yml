@@ -11,6 +11,13 @@ services:
       - 8000:8000
     depends_on:
       - zinc
+    environment:
+      - ZINC_CLUSTER_URL=http://appbase:bar@localhost:4080
+      - ES_CLUSTER_URL=http://127.0.0.1:9200
+      - JWT_RSA_PUBLIC_KEY_LOC=sample/rsa-public
+      - USERNAME=foo
+      - PASSWORD=bar
+      - SET_SNIFFING=false
   zinc:
     container_name: zinc
     image: public.ecr.aws/zinclabs/zinc:latest
