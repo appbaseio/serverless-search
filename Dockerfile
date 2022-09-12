@@ -1,4 +1,4 @@
-FROM golang:1.18.3 as builder
+FROM golang:1.18.3
 
 # Default value
 # Run `--build-arg BILLING=true` to enable billing
@@ -49,13 +49,16 @@ COPY . .
 RUN make
 
 # Final stage: Create the running container
-FROM debian:bullseye AS final
+#FROM debian:bullseye AS final
 
 # Create env folder
 RUN mkdir /serverless-search-data && touch /serverless-search-data/.env && chmod 777 /serverless-search-data/.env
 
+# Fix vulnerablities for image
+RUN apt-get -y install libcurl4-openssl-dev libcurl3-gnutls libpcre2-8-0 zlib1g libc6-dev libgnutls30 libtirpc-common libc-bin libtirpc3
+
 # Import the compiled executable from the first stage.
-COPY --from=builder /serverless-search /serverless-search
+#COPY --from=builder /serverless-search /serverless-search
 WORKDIR /serverless-search
 
 EXPOSE 8000
