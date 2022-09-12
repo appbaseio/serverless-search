@@ -4,7 +4,7 @@ BUILD_DIR=build
 PLUGIN_FLAGS=--buildmode=plugin
 PLUGIN_BUILD_DIR=$(BUILD_DIR)/plugins
 
-DEFAULT_VERSION=8.4.0
+DEFAULT_VERSION=8.5.0
 VERSION := $(or $(VERSION),$(DEFAULT_VERSION))
 # load_proxy_plugin =
 # ifeq ($(BILLING), true)
