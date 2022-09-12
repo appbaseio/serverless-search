@@ -27,7 +27,7 @@ $(info PLUGINS is $(PLUGINS))
 PLUGINS=analytics applycache cache pipelines uibuilder proxy fusion suggestions
 PLUGIN_LOCS=$(foreach PLUGIN,$(PLUGINS),$(PLUGIN_BUILD_DIR)/$(PLUGIN).so)
 
-OSS_PLUGINS=auth permissions users nodes telemetry
+OSS_PLUGINS=auth permissions users nodes telemetry querytranslate
 OSS_PLUGIN_LOCS=$(foreach OSS_PLUGIN,$(OSS_PLUGINS),$(PLUGIN_BUILD_DIR)/$(OSS_PLUGIN).so)
 
 cmd: plugins
