@@ -54,9 +54,6 @@ FROM debian:bullseye AS final
 # Create env folder
 RUN mkdir /serverless-search-data && touch /serverless-search-data/.env && chmod 777 /serverless-search-data/.env
 
-# Fix vulnerablities for image
-RUN apt-get update -y && apt-get install -y zlib1g libpcre2-dev
-
 # Import the compiled executable from the first stage.
 COPY --from=builder /serverless-search /serverless-search
 WORKDIR /serverless-search
