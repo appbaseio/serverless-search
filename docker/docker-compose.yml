@@ -14,14 +14,14 @@ services:
     depends_on:
       - zinc
     environment:
-      - ZINC_CLUSTER_URL=http://appbase:bar@localhost:4080
+      - ZINC_CLUSTER_URL=http://appbase:ComplexPass#123!@localhost:4080
       - ES_CLUSTER_URL=http://host.docker.internal:9200
       - JWT_RSA_PUBLIC_KEY_LOC=sample/rsa-public
       - USERNAME=foo
       - PASSWORD=bar
       - SET_SNIFFING=false
-      - APPBASE_ID=validAppbaseId
-      - CLUSTER_ID=validClusterId
+      - APPBASE_ID=${APPBASE_ID}
+      - LICENSE_KEY=${OFFLINE_APPBASE_LICENSE_KEY}
   zinc:
     container_name: zinc
     image: public.ecr.aws/zinclabs/zinc:latest
@@ -31,7 +31,7 @@ services:
     environment:
       - ZINC_DATA_PATH=/data
       - ZINC_FIRST_ADMIN_USER=appbase
-      - ZINC_FIRST_ADMIN_PASSWORD=bar
+      - ZINC_FIRST_ADMIN_PASSWORD=ComplexPass#123!
     volumes:
       - ./zinc-data:/data
   nginx:
