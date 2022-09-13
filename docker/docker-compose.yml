@@ -3,17 +3,19 @@ version: "3.4"
 services:
   serverless-search:
     container_name: serverless-search
-    image: appbaseio/serverless-search:8.4.0
+    image: appbaseio/serverless-search:8.5.0.alpha
     restart: always
     volumes:
       - serverless-search-data:/serverless-search-data
     ports:
       - 8000:8000
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     depends_on:
       - zinc
     environment:
       - ZINC_CLUSTER_URL=http://appbase:bar@localhost:4080
-      - ES_CLUSTER_URL=http://127.0.0.1:9200
+      - ES_CLUSTER_URL=http://host.docker.internal:9200
       - JWT_RSA_PUBLIC_KEY_LOC=sample/rsa-public
       - USERNAME=foo
       - PASSWORD=bar
@@ -22,14 +24,14 @@ services:
     container_name: zinc
     image: public.ecr.aws/zinclabs/zinc:latest
     restart: always
-    volumes:
-      - zinc-data:/data
     ports:
       - 4080:4080
     environment:
       - ZINC_DATA_PATH=/data
       - ZINC_FIRST_ADMIN_USER=appbase
       - ZINC_FIRST_ADMIN_PASSWORD=bar
+    volumes:
+      - ./zinc-data:/data
   nginx:
     container_name: appbase_nginx
     image: nginx:1.17-alpine
