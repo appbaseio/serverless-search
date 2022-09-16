@@ -22,7 +22,7 @@ VERSION := $(or $(VERSION),$(DEFAULT_VERSION))
 # 	PLUGINS = $(filter-out proxy, $(TMPPLUGINS))
 # endif
 
-PLUGINS=analytics applycache cache pipelines uibuilder proxy fusion
+PLUGINS=analytics applycache cache pipelines uibuilder proxy fusion suggestions
 PLUGIN_LOCS=$(foreach PLUGIN,$(PLUGINS),$(PLUGIN_BUILD_DIR)/$(PLUGIN).so)
 
 $(info PLUGINS is $(PLUGINS))
