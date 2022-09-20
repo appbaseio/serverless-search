@@ -22,12 +22,12 @@ VERSION := $(or $(VERSION),$(DEFAULT_VERSION))
 # 	PLUGINS = $(filter-out proxy, $(TMPPLUGINS))
 # endif
 
-PLUGINS=analytics applycache cache pipelines uibuilder proxy fusion suggestions
+PLUGINS=analytics applycache cache fusion pipelines preferences proxy rules searchrelevancy suggestions sync uibuilder
 PLUGIN_LOCS=$(foreach PLUGIN,$(PLUGINS),$(PLUGIN_BUILD_DIR)/$(PLUGIN).so)
 
 $(info PLUGINS is $(PLUGINS))
 
-OSS_PLUGINS=auth permissions users nodes telemetry querytranslate
+OSS_PLUGINS=auth permissions users nodes telemetry querytranslate elasticsearch logs reindexer
 OSS_PLUGIN_LOCS=$(foreach OSS_PLUGIN,$(OSS_PLUGINS),$(PLUGIN_BUILD_DIR)/$(OSS_PLUGIN).so)
 
 cmd: plugins
