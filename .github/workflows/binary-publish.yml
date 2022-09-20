@@ -25,3 +25,12 @@ jobs:
           envs: VERSION
           script: |
             sh sls-build.sh ${VERSION}
+
+  send-packer-event:
+    name: Send Packer Event
+    needs: build
+    uses: ./.github/workflows/build-image.yml
+    with:
+      ref: ${{ github.ref }}
+    secrets:
+      token: ${{ secrets.TOKEN }}
