@@ -9,13 +9,10 @@ services:
       - serverless-search-data:/serverless-search-data
     ports:
       - 8000:8000
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
     depends_on:
       - zinc
     environment:
       - ZINC_CLUSTER_URL=http://appbase:ComplexPass#123!@localhost:4080
-      - ES_CLUSTER_URL=http://host.docker.internal:9200
       - JWT_RSA_PUBLIC_KEY_LOC=sample/rsa-public
       - USERNAME=foo
       - PASSWORD=bar
