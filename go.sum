@@ -72,6 +72,8 @@ github.com/appbaseio-confidential/arc-noss v0.0.0-20220921101540-a4c9248b009d h1
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220921101540-a4c9248b009d/go.mod h1:ZDUK+Wbipdsgq7S+tmAsfg2vhGSYcR7n8jiT+jwsbPQ=
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220921141159-584bcd97613d h1:2p8pLcZ3Bqk8jf/cfrrprtiw9YOPFfvhfLcLWqDzOZg=
 github.com/appbaseio-confidential/arc-noss v0.0.0-20220921141159-584bcd97613d/go.mod h1:ZDUK+Wbipdsgq7S+tmAsfg2vhGSYcR7n8jiT+jwsbPQ=
+github.com/appbaseio-confidential/arc-noss v0.0.0-20220921144923-10d968de0fb5 h1:bLCxUz+paJzfWIq2mjN2TucdGbc1BtkXmJRp2uTuWnE=
+github.com/appbaseio-confidential/arc-noss v0.0.0-20220921144923-10d968de0fb5/go.mod h1:zzmx7UglCW4ZBpxYYrUb/JOurJIS8uoagfTkY9vllRs=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220705133928-800acf0348db h1:njc7ctCvQNNkEE/i+9GwgtGVk/jgqLsIDdEyupQoe1A=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220705133928-800acf0348db/go.mod h1:Vo5FeKolX7w0oYt5/eB/l9anuwBfv0AbsHt/qJElQ4A=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220719184430-d51bad6fc5d5 h1:6fUApzLv5CjZ9T80mhVW7WKHOsTMVEnsbE0Esyog/dk=
@@ -106,6 +108,8 @@ github.com/appbaseio/reactivesearch-api v0.0.0-20220912130004-6364bea7a650 h1:cT
 github.com/appbaseio/reactivesearch-api v0.0.0-20220912130004-6364bea7a650/go.mod h1:slIqsQ5BsBEPZ2uuGP7KOdboGmHnY4J5053UlgJiFv8=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220920144523-24bcc81d460c h1:m69VSmbIYHdcSQ+c5cgoC90CyKPIsq0PRemiIIg2wn4=
 github.com/appbaseio/reactivesearch-api v0.0.0-20220920144523-24bcc81d460c/go.mod h1:slIqsQ5BsBEPZ2uuGP7KOdboGmHnY4J5053UlgJiFv8=
+github.com/appbaseio/reactivesearch-api v0.0.0-20220921144821-b2cca02053f7 h1:ZiItCbJtikwatQ//PCEuu55dV0Muz7kotMNVFntJnFI=
+github.com/appbaseio/reactivesearch-api v0.0.0-20220921144821-b2cca02053f7/go.mod h1:slIqsQ5BsBEPZ2uuGP7KOdboGmHnY4J5053UlgJiFv8=
 github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6/go.mod h1:grANhF5doyWs3UAsr3K4I6qtAmlQcZDesFNEHPZAzj8=
 github.com/aws/aws-sdk-go v1.38.3/go.mod h1:hcU610XS61/+aQV88ixoOzUoG7v3b31pl2zKMmprdro=
 github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f h1:y06x6vGnFYfXUoVMbrcP1Uzpj4JG01eB5vRps9G8agM=
