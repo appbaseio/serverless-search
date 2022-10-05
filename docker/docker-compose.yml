@@ -3,7 +3,7 @@ version: "3.4"
 services:
   serverless-search:
     container_name: serverless-search
-    image: appbaseio/serverless-search:8.5.0.alpha
+    image: appbaseio/serverless-search:8.5.4
     restart: always
     volumes:
       - serverless-search-data:/serverless-search-data
