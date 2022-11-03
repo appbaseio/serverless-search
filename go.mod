@@ -15,8 +15,8 @@ require (
 	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
 	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
 	github.com/antonmedv/expr v1.9.0 // indirect
-	github.com/appbaseio-confidential/arc-noss v0.0.0-20221019093759-8c0b7554cb18 // indirect
-	github.com/appbaseio/reactivesearch-api v0.0.0-20221019093517-0166124bf379 // indirect
+	github.com/appbaseio-confidential/arc-noss v0.0.0-20221103112245-7c3faeb9c5f9 // indirect
+	github.com/appbaseio/reactivesearch-api v0.0.0-20221103110238-8888edd5cf4a // indirect
 	github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bbalet/stopwords v1.0.0 // indirect
@@ -77,7 +77,7 @@ require (
 	github.com/lithammer/fuzzysearch v1.1.3 // indirect
 	github.com/mackerelio/go-osstat v0.2.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
-	github.com/microcosm-cc/bluemonday v1.0.20 // indirect
+	github.com/microcosm-cc/bluemonday v1.0.21 // indirect
 	github.com/mschoch/smat v0.2.0 // indirect
 	github.com/natefinch/lumberjack v2.0.1-0.20190411184413-94d9e492cc53+incompatible // indirect
 	github.com/oasisprotocol/curve25519-voi v0.0.0-20211102120939-d5a936accd94 // indirect
@@ -105,7 +105,7 @@ require (
 	go.mongodb.org/mongo-driver v1.9.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/crypto v0.0.0-20210813211128-0a44fdfbc16e // indirect
-	golang.org/x/net v0.0.0-20220826154423-83b083e8dc8b // indirect
+	golang.org/x/net v0.0.0-20221002022538-bcab6841153b // indirect
 	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9 // indirect
 	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
 	golang.org/x/text v0.3.7 // indirect
