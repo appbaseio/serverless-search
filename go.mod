@@ -9,14 +9,15 @@ replace github.com/blugelabs/ice => github.com/zinclabs/ice v1.1.1
 replace github.com/blugelabs/bluge_segment_api => github.com/zinclabs/bluge_segment_api v1.0.0
 
 require (
+	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
 	github.com/Knetic/govaluate v3.0.0+incompatible // indirect
 	github.com/RoaringBitmap/roaring v0.9.4 // indirect
 	github.com/alecthomas/jsonschema v0.0.0-20220216202328-9eeeec9d044b // indirect
 	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
 	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
 	github.com/antonmedv/expr v1.9.0 // indirect
-	github.com/appbaseio-confidential/arc-noss v0.0.0-20221123141724-a8be7e1cfab3 // indirect
-	github.com/appbaseio/reactivesearch-api v0.0.0-20221123141532-d668bac9de02 // indirect
+	github.com/appbaseio-confidential/arc-noss v0.0.0-20221201035150-db73386e6789 // indirect
+	github.com/appbaseio/reactivesearch-api v0.0.0-20221201034956-75ea4b5b6cb1 // indirect
 	github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bbalet/stopwords v1.0.0 // indirect
@@ -36,6 +37,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/denisbrodbeck/machineid v1.0.1 // indirect
+	github.com/dgraph-io/badger v1.6.2 // indirect
 	github.com/dgraph-io/ristretto v0.1.0 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/dgryski/go-metro v0.0.0-20180109044635-280f6062b5bc // indirect
