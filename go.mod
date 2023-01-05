@@ -16,8 +16,8 @@ require (
 	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
 	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
 	github.com/antonmedv/expr v1.9.0 // indirect
-	github.com/appbaseio-confidential/arc-noss v0.0.0-20221228041715-80d0a98c65d9 // indirect
-	github.com/appbaseio/reactivesearch-api v0.0.0-20221228040809-d92370b23980 // indirect
+	github.com/appbaseio-confidential/arc-noss v0.0.0-20230105045042-5ee201af83d5 // indirect
+	github.com/appbaseio/reactivesearch-api v0.0.0-20230105044954-652a9b3074fa // indirect
 	github.com/axiomhq/hyperloglog v0.0.0-20191112132149-a4c4c47bc57f // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/bbalet/stopwords v1.0.0 // indirect
