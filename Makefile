@@ -4,7 +4,7 @@ BUILD_DIR=build
 PLUGIN_FLAGS=--buildmode=plugin
 PLUGIN_BUILD_DIR=$(BUILD_DIR)/plugins
 
-PLUGINS=pipelines rules suggestions searchrelevancy proxy uibuilder analytics analyticsrequest
+PLUGINS=pipelines rules suggestions searchrelevancy proxy uibuilder analytics analyticsrequest backend
 DEFAULT_VERSION=8.9.0
 VERSION := $(or $(VERSION),$(DEFAULT_VERSION))
 
