@@ -49,7 +49,7 @@ COPY . .
 RUN make clean && make
 
 # Final stage: Create the running container
-FROM debian:bullseye AS final
+FROM debian:11 AS final
 
 # Create env folder
 RUN mkdir /serverless-search-data && touch /serverless-search-data/.env && chmod 777 /serverless-search-data/.env
